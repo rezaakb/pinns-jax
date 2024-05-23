@@ -5,7 +5,6 @@
 </br>
 
 <a href="https://hydra.cc/"><img alt="Config: Hydra" src="https://img.shields.io/badge/Config-Hydra-89b8cd"></a>
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rezaakb/pinns-tf2/blob/main/tutorials/0-Schrodinger.ipynb)
 
 <a href="https://arxiv.org/abs/2311.03626">[Paper]</a> - <a href="https://github.com/rezaakb/pinns-torch">[PyTorch]</a> - <a href="https://github.com/rezaakb/pinns-tf2">[TensorFlow v2]</a> - <a href="https://github.com/maziarraissi/PINNs">[TensorFlow v1]</a>
@@ -13,10 +12,10 @@
 
 ## Description
 
-PINNs-JAX is a Python package built on the JAX framework. 
+This paper presents ‘PINNs-JAX’, an innovative implementation that utilizes the JAX framework to leverage the distinct capabilities of XLA compilers. This approach aims to improve computational efficiency and flexibility within PINN applications.
 
 <div align="center">
-<img src="http://drive.google.com/uc?export=view&id=1vGb-wuPI1bAEsD_5CKtUPUHq8cC1J32X" width="1000">
+<img src="http://drive.google.com/uc?export=view&id=1bhiyum1xh2KnLOnMeTjevBgOA8m4Qkel" width="1000">
 </br>
 <em>Each subplot corresponds to a problem, with its iteration count displayed at the
 top. The logarithmic x-axis shows the speed-up factor w.r.t the original code in TensorFlow v1, and the y-axis illustrates the mean relative error.</em>
@@ -26,13 +25,13 @@ top. The logarithmic x-axis shows the speed-up factor w.r.t the original code in
 
 For more information, please refer to our paper:
 
-<a href="https://arxiv.org/abs/2311.03626">Comparing PINNs Across Frameworks: JAX, TensorFlow, and PyTorch.</a> Reza Akbarian Bafghi, and Maziar Raissi. AI4DiffEqtnsInSci, ICLR, 2024.
+<a href="https://openreview.net/pdf?id=BPFzolSSrI">Comparing PINNs Across Frameworks: JAX, TensorFlow, and PyTorch.</a> Reza Akbarian Bafghi, and Maziar Raissi. AI4DiffEqtnsInSci, ICLR, 2024.
 
 ## Installation
 
-PINNs-TF2 requires following dependencies to be installed:
+PINNs-JAX requires following dependencies to be installed:
 
-- [TensorFlow](https://www.tensorflow.org/install) >=2.0.0
+- [JAX](https://jax.readthedocs.io/en/latest/installation.html) >= 0.4.16
 - [Hydra](https://hydra.cc/docs/intro/) >= 1.3
 
 Then, you can install PINNs-JAX itself via \[pip\]:
