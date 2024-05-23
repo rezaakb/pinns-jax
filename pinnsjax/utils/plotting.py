@@ -1,3 +1,4 @@
+import os
 import logging
 from itertools import combinations, product
 
@@ -54,6 +55,10 @@ def savefig(filename, crop=True):
     """
 
     log.info(f"Image saved at {filename}")
+    
+    dir_name = os.path.dirname(filename)
+    if dir_name and not os.path.exists(dir_name):
+        os.makedirs(dir_name)
 
     if crop:
         plt.savefig(f"{filename}.pdf", bbox_inches="tight", pad_inches=0)
