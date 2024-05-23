@@ -5,7 +5,7 @@
 </br>
 
 <a href="https://hydra.cc/"><img alt="Config: Hydra" src="https://img.shields.io/badge/Config-Hydra-89b8cd"></a>
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rezaakb/pinns-tf2/blob/main/tutorials/0-Burgers.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rezaakb/pinns-jax/blob/main/tutorials/0-Burgers.ipynb)
 
 <a href="https://arxiv.org/abs/2311.03626">[Paper]</a> - <a href="https://github.com/rezaakb/pinns-torch">[PyTorch]</a> - <a href="https://github.com/rezaakb/pinns-tf2">[TensorFlow v2]</a> - <a href="https://github.com/maziarraissi/PINNs">[TensorFlow v1]</a>
 </div>
