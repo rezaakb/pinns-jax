@@ -94,5 +94,12 @@ We employed [this template](https://github.com/ashleve/lightning-hydra-template)
 ## Citation
 
 ```
-...
+@inproceedings{
+bafghi2024comparing,
+title={Comparing {PINN}s Across Frameworks: {JAX}, TensorFlow, and PyTorch},
+author={Reza Akbarian Bafghi and Maziar Raissi},
+booktitle={ICLR 2024 Workshop on AI4DifferentialEquations In Science},
+year={2024},
+url={https://openreview.net/forum?id=BPFzolSSrI}
+}
 ```
