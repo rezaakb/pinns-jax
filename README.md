@@ -7,7 +7,7 @@
 <a href="https://hydra.cc/"><img alt="Config: Hydra" src="https://img.shields.io/badge/Config-Hydra-89b8cd"></a>
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rezaakb/pinns-jax/blob/main/tutorials/0-Burgers.ipynb)
 
-<a href="https://arxiv.org/abs/2311.03626">[Paper]</a> - <a href="https://github.com/rezaakb/pinns-torch">[PyTorch]</a> - <a href="https://github.com/rezaakb/pinns-tf2">[TensorFlow v2]</a> - <a href="https://github.com/maziarraissi/PINNs">[TensorFlow v1]</a>
+<a href="https://openreview.net/pdf?id=BPFzolSSrI">[Paper]</a> - <a href="https://github.com/rezaakb/pinns-torch">[PyTorch]</a> - <a href="https://github.com/rezaakb/pinns-tf2">[TensorFlow v2]</a> - <a href="https://github.com/maziarraissi/PINNs">[TensorFlow v1]</a>
 </div>
 
 ## Description
@@ -56,16 +56,16 @@ pip install -e .
 
 ## Quick start
 
-Explore a variety of implemented examples within the [examples](examples) folder. To run a specific code, such as the one for the Navier-Stokes PDE, you can use:
+Explore a variety of implemented examples within the [examples](examples) folder. To run a specific code, such as the one for the Allen Cahn PDE, you can use:
 
 ```bash
-python examples/navier_stokes/train.py
+python examples/ac/train.py
 ```
 
-You can train the model using a specified configuration, like the one found in [examples/navier_stokes/configs/config.yaml](examples/navier_stokes/configs/config.yaml). Parameters can be overridden directly from the command line. For instance:
+You can train the model using a specified configuration, like the one found in [examples/ac/configs/config.yaml](examples/ac/configs/config.yaml). Parameters can be overridden directly from the command line. For instance:
 
 ```bash
-python examples/navier_stokes/train.py trainer.max_epochs=20 n_train=3000
+python examples/ac/train.py trainer.max_epochs=20
 ```
 
 To utilize our package, there are two primary options:
@@ -73,7 +73,7 @@ To utilize our package, there are two primary options:
 - Implement your training structures using Hydra, as illustrated in our provided examples.
 - Directly incorporate our package to solve your custom problem.
 
-For a practical guide on directly using our package to solve the Schrödinger PDE in a continuous forward problem, refer to our tutorial here: [tutorials/0-Burgers.ipynb](tutorials/0-Burgers.ipynb).
+For a practical guide on directly using our package to solve the Burgers PDE in a continuous forward problem, refer to our tutorial here: [tutorials/0-Burgers.ipynb](tutorials/0-Burgers.ipynb).
 
 ## Data
 
@@ -85,7 +85,7 @@ As this is the first version of our package, there might be scope for enhancemen
 
 ## License
 
-Distributed under the terms of the \[BSD-3\] license, "pinnsjax" is free and open source software.
+Distributed under the terms of the \[MIT\] license, "pinnsjax" is free and open source software.
 
 ## Resources
 
