@@ -73,7 +73,7 @@ To utilize our package, there are two primary options:
 - Implement your training structures using Hydra, as illustrated in our provided examples.
 - Directly incorporate our package to solve your custom problem.
 
-For a practical guide on directly using our package to solve the Schrödinger PDE in a continuous forward problem, refer to our tutorial here: [tutorials/0-Schrodinger.ipynb](tutorials/0-Schrodinger.ipynb).
+For a practical guide on directly using our package to solve the Schrödinger PDE in a continuous forward problem, refer to our tutorial here: [tutorials/0-Burgers.ipynb](tutorials/0-Burgers.ipynb).
 
 ## Data
 
