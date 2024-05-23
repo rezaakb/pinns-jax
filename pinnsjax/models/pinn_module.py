@@ -55,7 +55,10 @@ class PINNModule:
         self.pde_fn = functools.partial(jax.vmap, in_axes=self.functional_net.in_axes)(pde_fn)     
         
         self.rk = runge_kutta
-        self.opt = optimizer(learning_rate=1e-3 if optimizer == optax.adam else optimizer.learning_rate)
+        if isinstance(optimizer, functools.partial):
+            self.opt = optimizer()
+        else:
+            self.opt = optimizer(learning_rate=1e-3)
         self.opt_state = self.opt.init(self.trainable_variables)
     
         if jit_compile:

@@ -101,3 +101,7 @@ plotting:
 
 seed: 1234
 task_name: burgers_discrete_forward
+
+hydra:
+  searchpath:
+    - pkg://pinnsjax/conf

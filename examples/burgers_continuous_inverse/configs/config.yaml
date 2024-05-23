@@ -76,3 +76,7 @@ plotting:
 
 seed: 1234
 task_name: burgers_continuous_inverse
+
+hydra:
+  searchpath:
+    - pkg://pinnsjax/conf
